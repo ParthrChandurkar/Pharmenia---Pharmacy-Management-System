@@ -1,6 +1,6 @@
 # 💊 Pharmenia — Pharmacy Management System
 
-> A full-featured desktop pharmacy management system built with **Python (Tkinter) + MySQL**, featuring a normalized 3NF database, stored procedures, triggers, cursors, views, and a PDF invoice generator.
+> A full-featured desktop pharmacy management system built with **Python UI (Tkinter) + MySQL**, featuring a normalized 3NF database, stored procedures, triggers, cursors, views, and a PDF invoice generator.
 
 ---
 
@@ -196,6 +196,8 @@ python pharmenia_admin_app.py
 ```
 User ID  : admin
 Password : admin123
+
+You can change this in the app.py
 ```
 
 > ⚠️ These are hardcoded for demo purposes. Change them in `LoginWindow.try_login()` before any real deployment.
@@ -240,3 +242,4 @@ SHOW FULL TABLES IN pharmenia WHERE Table_type='VIEW';
 ## 📜 License
 
 This project is built for academic and educational purposes.
+
