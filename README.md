@@ -14,7 +14,7 @@ The backend is a fully normalized **MySQL** database with stored procedures, tri
 
 ## ✨ Features
 
-- 🔐 **Admin Login** — simple credential-gated entry before the dashboard loads
+- 🔐 **Admin Login** — Simple credential-gated entry before the dashboard loads
 - 💊 **Medicines Management** — add, search (by name or salt), and delete medicines with live stock display
 - 🏭 **Suppliers Management** — full CRUD for supplier master data with GSTIN support
 - 👥 **Customers Management** — customer records with Walk-in de-duplication utility
@@ -38,7 +38,7 @@ pharmenia/
 ├── pkfk.sql                 # PK/FK verification queries
 ├── functions.sql            # 3 stored functions (stock, expiry check, invoice total)
 ├── stored_proce.sql         # 3 stored procedures (sales summary, purchase report, customer revenue)
-├── trig_cursor.sql          # 5 triggers + 1 cursor-based invoice procedure
+├── trig_cursor.sql          # 5 triggers + 1 cursor-based invoice procedure.
 └── views.sql                # 3 views (medicine stock, top sellers, near-expiry 30d)
 ```
 
