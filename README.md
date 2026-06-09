@@ -25,6 +25,16 @@ The backend is a fully normalized **MySQL** database with stored procedures, tri
 
 ---
 
+## 🏗️ Architecture
+
+The diagram below shows how the Tkinter desktop UI, Python controller/helper layer, MySQL routines, normalized tables, inventory ledger, reporting views, and PDF invoice export fit together.
+
+<p align="center">
+  <img src="assets/architecture.svg" alt="Pharmenia pharmacy management system architecture diagram" width="100%">
+</p>
+
+---
+
 ## 🗂️ Project Structure
 
 ```
@@ -39,7 +49,10 @@ pharmenia/
 ├── functions.sql            # 3 stored functions (stock, expiry check, invoice total)
 ├── stored_proce.sql         # 3 stored procedures (sales summary, purchase report, customer revenue)
 ├── trig_cursor.sql          # 5 triggers + 1 cursor-based invoice procedure.
-└── views.sql                # 3 views (medicine stock, top sellers, near-expiry 30d)
+├── views.sql                # 3 views (medicine stock, top sellers, near-expiry 30d)
+│
+└── assets/
+    └── architecture.svg     # README architecture diagram
 ```
 
 ---
